@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{4B5624BD-47DE-4F4A-9128-B8D75F5F1D81}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RotatingSpikes.cs">
+    <Files>
+      <File FileName="Assets/Scripts/FirstPersonController.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/PlayerLivesUI.cs" />
+      <File FileName="Assets/Scripts/MainMenuManager.cs" />
+      <File FileName="Assets/Scripts/MovingSpikes.cs" Line="23" Column="2" />
+      <File FileName="Assets/Scripts/RotatingSpikes.cs" Line="45" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="valeryanka" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="RotatingSpikes.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="fcd950b6-db1c-493e-b69b-ac791af2fdbf" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

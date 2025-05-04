@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{1B44759D-BCE7-9AC8-114E-784B88A6669B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FirstPersonController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerLivesUI.cs" Line="14" Column="1" IsPinned="True" />
+      <File FileName="Assets/Scripts/GameOverManage.cs" />
+      <File FileName="Assets/Scripts/FirstPersonController.cs" Line="197" Column="1" />
+      <File FileName="Assets/Scripts/MovingSpikes.cs" />
+      <File FileName="Assets/Scripts/RotatingSpikes.cs" />
+      <File FileName="Assets/Scripts/AudioManager.cs" />
+      <File FileName="Assets/Scripts/SpikeWall.cs" />
+      <File FileName="Assets/Scripts/BridgeController.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="valeryanka copy" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="deb60ca4-eb45-4c26-bea5-840c4072416c" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
