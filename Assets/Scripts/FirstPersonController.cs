@@ -98,7 +98,7 @@ public class FirstPersonController : MonoBehaviour
         {
             SceneManager.LoadScene("Level3");
         }
-        if (transform.position.x >= -5 && transform.position.x <= -3.5f && transform.position.y >= -0.5f && spikeWall == null && rotatingPlatforms == null)
+        if (transform.position.x >= -5 && transform.position.x <= -3.5f && transform.position.y >= -0.5f && transform.position.z <= 0.5f && spikeWall == null && rotatingPlatforms == null)
         {
             SceneManager.LoadScene("MainMenu");
         }

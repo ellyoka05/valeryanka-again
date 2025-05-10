@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{057A60E3-446B-68C9-D6D6-6A2991301B43}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/FirstPersonController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/FirstPersonController.cs" Line="105" Column="6" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="valeryanka copy 2" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="FirstPersonController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="dbfd7451-f6bd-4be2-bd05-0339aef00e4e" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
