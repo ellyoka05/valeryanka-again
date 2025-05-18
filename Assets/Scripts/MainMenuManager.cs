@@ -11,6 +11,8 @@ public class MainMenuManager : MonoBehaviour
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         SetupButtonWithHoverText(GameObject.Find("Play").GetComponent<EventTrigger>());
         SetupButtonWithHoverText(GameObject.Find("Surrender").GetComponent<EventTrigger>());
     }

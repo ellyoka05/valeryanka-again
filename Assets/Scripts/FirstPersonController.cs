@@ -31,6 +31,7 @@ public class FirstPersonController : MonoBehaviour
 
 
     private GameObject spikeWall;
+    private GameObject fallingCeiling;
 
     void Start()
     {
@@ -39,6 +40,7 @@ public class FirstPersonController : MonoBehaviour
         startPosition = transform.position;
         rotatingPlatforms = GameObject.FindGameObjectWithTag("RotatingPlatform");
         spikeWall = GameObject.FindGameObjectWithTag("SpikeWall");
+        fallingCeiling = GameObject.FindGameObjectWithTag("FallingCeiling");
         _Start();
     }
 
@@ -98,8 +100,11 @@ public class FirstPersonController : MonoBehaviour
         {
             SceneManager.LoadScene("Level3");
         }
-        Debug.Log("Test condition: " + (transform.position.x >= -5 && transform.position.x <= -3.5f && transform.position.y >= -0.5f && transform.position.z <= 0.5f && spikeWall == null && rotatingPlatforms == null));
-        if (transform.position.x >= -5 && transform.position.x <= -3.5f && transform.position.y >= -0.5f && transform.position.z <= 0.5f && spikeWall == null && rotatingPlatforms == null)
+        if (transform.position.x >= -5 && transform.position.x <= -3.5f && transform.position.y >= -0.5f && transform.position.z <= 0.5f && spikeWall == null && rotatingPlatforms == null && fallingCeiling == null)
+        {
+            SceneManager.LoadScene("Level4");
+        }
+        if (transform.position.z >= 59.25f && transform.position.y >= -0.5f && fallingCeiling != null)
         {
             SceneManager.LoadScene("MainMenu");
         }

@@ -8,6 +8,8 @@ TagManager:
   - RotatingPlatform
   - TransitionWall
   - SpikeWall
+  - FallingCeiling
+  - MovingFloor
   layers:
   - Default
   - TransparentFX
