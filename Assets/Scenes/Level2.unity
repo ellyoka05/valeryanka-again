@@ -1655,11 +1655,12 @@ MonoBehaviour:
   cameraTransform: {fileID: 963194228}
   hiddenSpikeMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   groundCheckDistance: 0.4
   groundMask:
     serializedVersion: 2
     m_Bits: 256
+  isInputEnabled: 1
 --- !u!1 &93337030
 GameObject:
   m_ObjectHideFlags: 0
@@ -32814,7 +32815,6 @@ MonoBehaviour:
   - {fileID: 1577405242}
   - {fileID: 878606851}
   - {fileID: 1124396172}
-  respawnInvulnerabilityTime: 2
 --- !u!114 &2096641270
 MonoBehaviour:
   m_ObjectHideFlags: 0
