@@ -192,6 +192,16 @@ public class FirstPersonController : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Spike") ||
+            other.gameObject.layer == LayerMask.NameToLayer("HiddenSpike"))
+        {
+            Die();
+        }
+    }
+
+
     void Die()
     {
         controller.enabled = false;
