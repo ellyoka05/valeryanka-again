@@ -69,6 +69,7 @@
     <Compile Include="Assets/Scripts/MovingSpikes.cs" />
     <Compile Include="Assets/Scripts/AudioManager.cs" />
     <Compile Include="Assets/Scripts/SpikeWall.cs" />
+    <Compile Include="Assets/Scripts/EndMenuManager.cs" />
     <Compile Include="Assets/Scripts/FirstPersonController.cs" />
   </ItemGroup>
   <ItemGroup>

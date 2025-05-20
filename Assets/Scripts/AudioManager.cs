@@ -8,8 +8,6 @@ public class AudioManager : MonoBehaviour
     [SerializeField] AudioSource SFXSource;
 
     public AudioClip ambient;
-    public AudioClip death;
-    public AudioClip addiotional;
 
     public void Start()
     {
