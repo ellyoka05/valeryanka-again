@@ -87,7 +87,7 @@ public class FirstPersonController : MonoBehaviour
         {
             Die();
         }
-        checkWetherPlayerHasPassedTheLevelOrHeIsStillPlayingThisStupidGame();
+        // checkWetherPlayerHasPassedTheLevelOrHeIsStillPlayingThisStupidGame();
     }
 
     void checkWetherPlayerHasPassedTheLevelOrHeIsStillPlayingThisStupidGame()
@@ -198,6 +198,25 @@ public class FirstPersonController : MonoBehaviour
             other.gameObject.layer == LayerMask.NameToLayer("HiddenSpike"))
         {
             Die();
+        }
+        if (other.gameObject.layer == LayerMask.NameToLayer("FinalDoor"))
+        {
+            if (rotatingPlatforms != null)
+            {
+                SceneManager.LoadScene("Level2");
+            }
+            else if (spikeWall != null)
+            {
+                SceneManager.LoadScene("Level3");
+            }
+            else if (spikeWall == null && rotatingPlatforms == null && fallingCeiling == null)
+            {
+                SceneManager.LoadScene("Level4");
+            }
+            else if (fallingCeiling != null)
+            {
+                SceneManager.LoadScene("EndScene");
+            }
         }
     }
 
