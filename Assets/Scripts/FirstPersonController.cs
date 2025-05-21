@@ -104,9 +104,9 @@ public class FirstPersonController : MonoBehaviour
         {
             SceneManager.LoadScene("Level4");
         }
-        if (transform.position.z >= 59.25f && transform.position.y >= -0.5f && fallingCeiling != null)
+        if (transform.position.z >= 59f && transform.position.y >= -0.5f && fallingCeiling != null)
         {
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("EndScene");
         }
     }
 

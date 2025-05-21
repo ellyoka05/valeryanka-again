@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{057A60E3-446B-68C9-D6D6-6A2991301B43}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/AudioManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/EndMenuManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/FirstPersonController.cs" Line="112" Column="1" />
-      <File FileName="Assets/Scripts/GameOverManage.cs" Line="43" Column="6" />
-      <File FileName="Assets/Scripts/MainMenuManager.cs" Line="10" Column="80" />
-      <File FileName="Assets/EndMenuManager.cs" Line="8" Column="4" />
-      <File FileName="Assets/Scripts/BridgeController.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CeilingFall.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/FirstPersonController.cs" Line="113" Column="26" />
+      <File FileName="Assets/Scripts/GameOverManage.cs" />
+      <File FileName="Assets/Scripts/MainMenuManager.cs" />
+      <File FileName="Assets/Scripts/BridgeController.cs" />
+      <File FileName="Assets/Scripts/CeilingFall.cs" />
       <File FileName="Assets/Scripts/AudioManager.cs" Line="21" Column="37" />
+      <File FileName="Assets/Scripts/EndMenuManager.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +15,7 @@
           <Node name="valeryanka copy 2" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="AudioManager.cs" selected="True" />
+                <Node name="EndMenuManager.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="19a787bc-8d81-4d63-be79-b10715597f17" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a9978d31-5e24-47a3-b7c3-bed03bbdec01" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
